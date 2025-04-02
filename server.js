@@ -11,6 +11,11 @@ const io = new Server(server, {
   }
 });
 
+// ✅ Voeg een eenvoudige route toe zodat Railway iets teruggeeft op GET /
+app.get("/", (req, res) => {
+  res.send("✅ Signaling Server draait via Railway!");
+});
+
 const activePairs = {}; // { pairingCode: { monitorId, viewerId } }
 
 io.on('connection', (socket) => {
@@ -81,7 +86,8 @@ function findPairBySocketId(id) {
   return null;
 }
 
-const PORT = process.env.PORT || 3000;
+// 🔧 Gebruik Railway's poort of val terug op 8080 lokaal
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
