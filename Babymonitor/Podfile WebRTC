@@ -1,0 +1,9 @@
+platform :ios, '12.0'
+
+target 'Babymonitor' do
+  use_frameworks!
+  
+  # WebRTC voor real-time audio/video streaming
+  pod 'GoogleWebRTC'
+  
+end

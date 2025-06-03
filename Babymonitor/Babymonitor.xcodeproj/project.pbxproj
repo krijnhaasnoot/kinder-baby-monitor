@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860B8485B69DC32BCD7B76B8 /* Pods_Babymonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9958AD8A16612B4EF4911B9E /* Pods_Babymonitor.framework */; };
+		937752B2D191C6B7B0529008 /* Pods_Babymonitor_BabymonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF34F37D6DE23B51A5915DB5 /* Pods_Babymonitor_BabymonitorUITests.framework */; };
+		A0D0290A150E72BDF5D6E807 /* Pods_BabymonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7949AD3C8BE65EA394F5F /* Pods_BabymonitorTests.framework */; };
+		EF37A2E92D929E7500E9C133 /* BabymonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37A2E82D929E7500E9C133 /* BabymonitorTests.swift */; };
+		EF37A2F32D929E7500E9C133 /* BabymonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37A2F22D929E7500E9C133 /* BabymonitorUITests.swift */; };
+		EF37A2F52D929E7500E9C133 /* BabymonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37A2F42D929E7500E9C133 /* BabymonitorUITestsLaunchTests.swift */; };
+		EF37A30D2D92A13B00E9C133 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = EF37A30C2D92A13B00E9C133 /* WebRTC */; };
+		EF9757232D92DE1A00A62DE9 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = EF9757222D92DE1A00A62DE9 /* SocketIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF37A2E52D929E7500E9C133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF37A2CC2D929E7300E9C133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF37A2D32D929E7300E9C133;
+			remoteInfo = Babymonitor;
+		};
+		EF37A2EF2D929E7500E9C133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF37A2CC2D929E7300E9C133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF37A2D32D929E7300E9C133;
+			remoteInfo = Babymonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ABF2F3DA02ECF9EF71D37EA /* Pods-BabymonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabymonitorTests.release.xcconfig"; path = "Target Support Files/Pods-BabymonitorTests/Pods-BabymonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		31FD1F865A9376F54BDD3565 /* Pods-BabymonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabymonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-BabymonitorTests/Pods-BabymonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4615727B679E1B4F2F0B9356 /* Pods-Babymonitor-BabymonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babymonitor-BabymonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-Babymonitor-BabymonitorUITests/Pods-Babymonitor-BabymonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90BEEC482637A41BBFC0FE85 /* Pods-Babymonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babymonitor.release.xcconfig"; path = "Target Support Files/Pods-Babymonitor/Pods-Babymonitor.release.xcconfig"; sourceTree = "<group>"; };
+		9958AD8A16612B4EF4911B9E /* Pods_Babymonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babymonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7949AD3C8BE65EA394F5F /* Pods_BabymonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabymonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF34F37D6DE23B51A5915DB5 /* Pods_Babymonitor_BabymonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babymonitor_BabymonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E74167DBEF6C69D02F1A7C /* Pods-Babymonitor-BabymonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babymonitor-BabymonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Babymonitor-BabymonitorUITests/Pods-Babymonitor-BabymonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF37A2D42D929E7300E9C133 /* Babymonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babymonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF37A2E42D929E7500E9C133 /* BabymonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabymonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF37A2E82D929E7500E9C133 /* BabymonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabymonitorTests.swift; sourceTree = "<group>"; };
+		EF37A2EE2D929E7500E9C133 /* BabymonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabymonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF37A2F22D929E7500E9C133 /* BabymonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabymonitorUITests.swift; sourceTree = "<group>"; };
+		EF37A2F42D929E7500E9C133 /* BabymonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabymonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB596741BE4F32A3773AA71E /* Pods-Babymonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babymonitor.debug.xcconfig"; path = "Target Support Files/Pods-Babymonitor/Pods-Babymonitor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF37A2D12D929E7300E9C133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37A30D2D92A13B00E9C133 /* WebRTC in Frameworks */,
+				EF9757232D92DE1A00A62DE9 /* SocketIO in Frameworks */,
+				860B8485B69DC32BCD7B76B8 /* Pods_Babymonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2E12D929E7500E9C133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D0290A150E72BDF5D6E807 /* Pods_BabymonitorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2EB2D929E7500E9C133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937752B2D191C6B7B0529008 /* Pods_Babymonitor_BabymonitorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260E6E4D08D0B7619C147867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB596741BE4F32A3773AA71E /* Pods-Babymonitor.debug.xcconfig */,
+				90BEEC482637A41BBFC0FE85 /* Pods-Babymonitor.release.xcconfig */,
+				D2E74167DBEF6C69D02F1A7C /* Pods-Babymonitor-BabymonitorUITests.debug.xcconfig */,
+				4615727B679E1B4F2F0B9356 /* Pods-Babymonitor-BabymonitorUITests.release.xcconfig */,
+				31FD1F865A9376F54BDD3565 /* Pods-BabymonitorTests.debug.xcconfig */,
+				1ABF2F3DA02ECF9EF71D37EA /* Pods-BabymonitorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		36A9550D28E3D1BE572BF64E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9958AD8A16612B4EF4911B9E /* Pods_Babymonitor.framework */,
+				BF34F37D6DE23B51A5915DB5 /* Pods_Babymonitor_BabymonitorUITests.framework */,
+				A1B7949AD3C8BE65EA394F5F /* Pods_BabymonitorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF37A2CB2D929E7300E9C133 = {
+			isa = PBXGroup;
+			children = (
+				EF37A2E72D929E7500E9C133 /* BabymonitorTests */,
+				EF37A2F12D929E7500E9C133 /* BabymonitorUITests */,
+				EF37A2D52D929E7300E9C133 /* Products */,
+				260E6E4D08D0B7619C147867 /* Pods */,
+				36A9550D28E3D1BE572BF64E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF37A2D52D929E7300E9C133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF37A2D42D929E7300E9C133 /* Babymonitor.app */,
+				EF37A2E42D929E7500E9C133 /* BabymonitorTests.xctest */,
+				EF37A2EE2D929E7500E9C133 /* BabymonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF37A2E72D929E7500E9C133 /* BabymonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF37A2E82D929E7500E9C133 /* BabymonitorTests.swift */,
+			);
+			path = BabymonitorTests;
+			sourceTree = "<group>";
+		};
+		EF37A2F12D929E7500E9C133 /* BabymonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF37A2F22D929E7500E9C133 /* BabymonitorUITests.swift */,
+				EF37A2F42D929E7500E9C133 /* BabymonitorUITestsLaunchTests.swift */,
+			);
+			path = BabymonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF37A2D32D929E7300E9C133 /* Babymonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF37A2F82D929E7500E9C133 /* Build configuration list for PBXNativeTarget "Babymonitor" */;
+			buildPhases = (
+				CB1CED46F02329157533AB3A /* [CP] Check Pods Manifest.lock */,
+				EF37A2D02D929E7300E9C133 /* Sources */,
+				EF37A2D12D929E7300E9C133 /* Frameworks */,
+				EF37A2D22D929E7300E9C133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babymonitor;
+			packageProductDependencies = (
+				EF37A30C2D92A13B00E9C133 /* WebRTC */,
+				EF9757222D92DE1A00A62DE9 /* SocketIO */,
+			);
+			productName = Babymonitor;
+			productReference = EF37A2D42D929E7300E9C133 /* Babymonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF37A2E32D929E7500E9C133 /* BabymonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF37A2FB2D929E7500E9C133 /* Build configuration list for PBXNativeTarget "BabymonitorTests" */;
+			buildPhases = (
+				FA4CD44495194CB565168E8B /* [CP] Check Pods Manifest.lock */,
+				EF37A2E02D929E7500E9C133 /* Sources */,
+				EF37A2E12D929E7500E9C133 /* Frameworks */,
+				EF37A2E22D929E7500E9C133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF37A2E62D929E7500E9C133 /* PBXTargetDependency */,
+			);
+			name = BabymonitorTests;
+			productName = BabymonitorTests;
+			productReference = EF37A2E42D929E7500E9C133 /* BabymonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF37A2ED2D929E7500E9C133 /* BabymonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF37A2FE2D929E7500E9C133 /* Build configuration list for PBXNativeTarget "BabymonitorUITests" */;
+			buildPhases = (
+				79598E5A91585A3EFB5E2FBE /* [CP] Check Pods Manifest.lock */,
+				EF37A2EA2D929E7500E9C133 /* Sources */,
+				EF37A2EB2D929E7500E9C133 /* Frameworks */,
+				EF37A2EC2D929E7500E9C133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF37A2F02D929E7500E9C133 /* PBXTargetDependency */,
+			);
+			name = BabymonitorUITests;
+			productName = BabymonitorUITests;
+			productReference = EF37A2EE2D929E7500E9C133 /* BabymonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF37A2CC2D929E7300E9C133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EF37A2D32D929E7300E9C133 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EF37A2E32D929E7500E9C133 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF37A2D32D929E7300E9C133;
+					};
+					EF37A2ED2D929E7500E9C133 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF37A2D32D929E7300E9C133;
+					};
+				};
+			};
+			buildConfigurationList = EF37A2CF2D929E7300E9C133 /* Build configuration list for PBXProject "Babymonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF37A2CB2D929E7300E9C133;
+			packageReferences = (
+				EF37A30B2D92A13B00E9C133 /* XCRemoteSwiftPackageReference "WebRTC" */,
+				EF9757212D92DE1A00A62DE9 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+			);
+			productRefGroup = EF37A2D52D929E7300E9C133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF37A2D32D929E7300E9C133 /* Babymonitor */,
+				EF37A2E32D929E7500E9C133 /* BabymonitorTests */,
+				EF37A2ED2D929E7500E9C133 /* BabymonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF37A2D22D929E7300E9C133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2E22D929E7500E9C133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2EC2D929E7500E9C133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79598E5A91585A3EFB5E2FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babymonitor-BabymonitorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1CED46F02329157533AB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babymonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4CD44495194CB565168E8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabymonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF37A2D02D929E7300E9C133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2E02D929E7500E9C133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37A2E92D929E7500E9C133 /* BabymonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37A2EA2D929E7500E9C133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37A2F32D929E7500E9C133 /* BabymonitorUITests.swift in Sources */,
+				EF37A2F52D929E7500E9C133 /* BabymonitorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF37A2E62D929E7500E9C133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF37A2D32D929E7300E9C133 /* Babymonitor */;
+			targetProxy = EF37A2E52D929E7500E9C133 /* PBXContainerItemProxy */;
+		};
+		EF37A2F02D929E7500E9C133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF37A2D32D929E7300E9C133 /* Babymonitor */;
+			targetProxy = EF37A2EF2D929E7500E9C133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF37A2F62D929E7500E9C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF37A2F72D929E7500E9C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF37A2F92D929E7500E9C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB596741BE4F32A3773AA71E /* Pods-Babymonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Babymonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Babymonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We gebruiken je camera om beelden van je baby aan je te laten zien. ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We gebruiken je microfoon om je baby te kunnen horen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.Babymonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF37A2FA2D929E7500E9C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BEEC482637A41BBFC0FE85 /* Pods-Babymonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Babymonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Babymonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We gebruiken je camera om beelden van je baby aan je te laten zien. ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We gebruiken je microfoon om je baby te kunnen horen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.Babymonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF37A2FC2D929E7500E9C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FD1F865A9376F54BDD3565 /* Pods-BabymonitorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.BabymonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babymonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Babymonitor";
+			};
+			name = Debug;
+		};
+		EF37A2FD2D929E7500E9C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABF2F3DA02ECF9EF71D37EA /* Pods-BabymonitorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.BabymonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babymonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Babymonitor";
+			};
+			name = Release;
+		};
+		EF37A2FF2D929E7500E9C133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E74167DBEF6C69D02F1A7C /* Pods-Babymonitor-BabymonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.BabymonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babymonitor;
+			};
+			name = Debug;
+		};
+		EF37A3002D929E7500E9C133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4615727B679E1B4F2F0B9356 /* Pods-Babymonitor-BabymonitorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWCLU3FK9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.BabymonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babymonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF37A2CF2D929E7300E9C133 /* Build configuration list for PBXProject "Babymonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF37A2F62D929E7500E9C133 /* Debug */,
+				EF37A2F72D929E7500E9C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF37A2F82D929E7500E9C133 /* Build configuration list for PBXNativeTarget "Babymonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF37A2F92D929E7500E9C133 /* Debug */,
+				EF37A2FA2D929E7500E9C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF37A2FB2D929E7500E9C133 /* Build configuration list for PBXNativeTarget "BabymonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF37A2FC2D929E7500E9C133 /* Debug */,
+				EF37A2FD2D929E7500E9C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF37A2FE2D929E7500E9C133 /* Build configuration list for PBXNativeTarget "BabymonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF37A2FF2D929E7500E9C133 /* Debug */,
+				EF37A3002D929E7500E9C133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF37A30B2D92A13B00E9C133 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 134.0.0;
+			};
+		};
+		EF9757212D92DE1A00A62DE9 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF37A30C2D92A13B00E9C133 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF37A30B2D92A13B00E9C133 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+		EF9757222D92DE1A00A62DE9 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF9757212D92DE1A00A62DE9 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF37A2CC2D929E7300E9C133 /* Project object */;
+}

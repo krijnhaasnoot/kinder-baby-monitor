@@ -1,0 +1,41 @@
+# Xcode build artifacts and user-specific files
+.DS_Store
+.build/
+build/
+DerivedData/
+xcuserdata/
+*.pbxuser
+*.mode*
+*.lock
+*.moved-aside
+*.xcuserstate
+*.xcsettings
+*.xcscheme
+*.xcscmblueprint
+*.playground/timeline
+*.playground/data
+*.swiftpm
+*.swiftpm/
+
+# CocoaPods
+Pods/
+.cocoapods/
+
+# Carthage
+Carthage/Build
+
+# Node.js / Backend specific - DIRECT IN DE ROOT
+node_modules/
+npm-debug.log
+.npm/
+package-lock.json # Zorg dat deze ook genegeerd wordt als hij in de root staat
+
+# Als je de hele babymonitor-server map (inclusief node_modules daarbinnen) buiten Git wilt houden:
+babymonitor-server/ 
+
+# General ignore files
+*.archive
+*.ipa
+*.dSYM
+.env
+.vscode/

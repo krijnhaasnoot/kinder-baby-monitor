@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Preview Content"
+      name = "Preview Content">
+      <Group
+         location = "group:Preview Assets.xcassets"
+         name = "Preview Assets.xcassets">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Logic">
+      <FileRef
+         location = "group:Logic/AppEntry.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/AudioMonitor.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/AudioSessionManager.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/AudioTestView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/CloudNetworkManager.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/Notification+Extension.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/ServerDebugView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/SignalingClient.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/SignalingTestView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/SocketDebugView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Logic/WebRTCAudioTestView.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "UI View">
+      <FileRef
+         location = "group:UI Views/BabyMonitorSetupView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UI Views/BabyMonitorViewer.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UI Views/ConnectionIndicator.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UI Views/StartView.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Babymonitor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
